@@ -170,9 +170,156 @@ const jobData = {
       'Decision Making',
       'Problem Solving'
     ]
+  },
+
+  'financial-analyst': {
+    icon: '💰',
+    title: 'Financial Analyst',
+    description:
+      'Help organizations understand financial information and make better financial decisions.',
+    responsibilities: [
+      'Analyze financial data',
+      'Prepare financial reports',
+      'Study business costs and profits',
+      'Help create budgets and forecasts',
+      'Recommend financial decisions'
+    ],
+    skills: [
+      'Financial Analysis',
+      'Microsoft Excel',
+      'Critical Thinking',
+      'Communication',
+      'Attention to Detail'
+    ]
+  },
+
+  'entrepreneur': {
+    icon: '🚀',
+    title: 'Entrepreneur',
+    description:
+      'Create and manage a business by turning ideas into products or services.',
+    responsibilities: [
+      'Develop business ideas',
+      'Create business plans',
+      'Manage money and resources',
+      'Promote products or services',
+      'Make important business decisions'
+    ],
+    skills: [
+      'Leadership',
+      'Creativity',
+      'Communication',
+      'Financial Management',
+      'Problem Solving'
+    ]
+   },
+
+  // COMMUNICATION
+  'public-relations-specialist': {
+    icon: '📣',
+    title: 'Public Relations Specialist',
+    description:
+      'Help organizations communicate with the public and build a positive reputation.',
+    responsibilities: [
+      'Write press releases and announcements',
+      'Communicate with media organizations',
+      'Help manage public events',
+      'Create communication plans',
+      'Build relationships with the public'
+    ],
+    skills: [
+      'Communication',
+      'Writing',
+      'Public Speaking',
+      'Media Relations',
+      'Organization'
+    ]
+  },
+
+  'journalist': {
+    icon: '📰',
+    title: 'Journalist',
+    description:
+      'Research and report stories that inform people about important events and topics.',
+    responsibilities: [
+      'Research news and information',
+      'Interview people',
+      'Write and edit stories',
+      'Check facts and sources',
+      'Report important events'
+    ],
+    skills: [
+      'Writing',
+      'Research',
+      'Interviewing',
+      'Communication',
+      'Critical Thinking'
+    ]
+  },
+
+  'content-creator': {
+    icon: '🎥',
+    title: 'Content Creator',
+    description:
+      'Create digital content that informs, entertains, or connects with an audience.',
+    responsibilities: [
+      'Create videos, photos, and written content',
+      'Plan content ideas',
+      'Edit digital content',
+      'Publish content online',
+      'Engage with audiences'
+    ],
+    skills: [
+      'Creativity',
+      'Communication',
+      'Video Editing',
+      'Social Media',
+      'Storytelling'
+    ]
+  },
+
+  'communications-specialist': {
+    icon: '💬',
+    title: 'Communications Specialist',
+    description:
+      'Help organizations share clear messages with employees, customers, and the public.',
+    responsibilities: [
+      'Write organizational messages',
+      'Create communication materials',
+      'Support communication campaigns',
+      'Help manage websites and newsletters',
+      'Communicate with different audiences'
+    ],
+    skills: [
+      'Writing',
+      'Communication',
+      'Organization',
+      'Digital Media',
+      'Public Relations'
+    ]
+  },
+
+  'social-media-coordinator': {
+    icon: '📱',
+    title: 'Social Media Coordinator',
+    description:
+      'Manage social media content and help organizations connect with their online audiences.',
+    responsibilities: [
+      'Create social media posts',
+      'Schedule and publish content',
+      'Respond to audience interactions',
+      'Track social media performance',
+      'Help plan social media campaigns'
+    ],
+    skills: [
+      'Social Media',
+      'Content Creation',
+      'Communication',
+      'Creativity',
+      'Analytics'
+    ]
   }
 }
-
 function JobDetails() {
   const { jobId } = useParams()
   const navigate = useNavigate()
