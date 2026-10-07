@@ -1,8 +1,8 @@
-
 import { useParams, useNavigate } from 'react-router-dom'
 import './JobDetails.css'
 
 const jobData = {
+  // INFORMATION TECHNOLOGY
   'it-support-specialist': {
     icon: '🖥️',
     title: 'IT Support Specialist',
@@ -105,6 +105,70 @@ const jobData = {
       'Troubleshooting',
       'Security',
       'Communication'
+    ]
+  },
+
+  // BUSINESS
+  'business-analyst': {
+    icon: '📊',
+    title: 'Business Analyst',
+    description:
+      'Help organizations understand problems, improve processes, and make better business decisions.',
+    responsibilities: [
+      'Analyze business needs and problems',
+      'Collect and organize business information',
+      'Recommend improvements to processes',
+      'Work with teams and stakeholders',
+      'Create reports and presentations'
+    ],
+    skills: [
+      'Business Analysis',
+      'Communication',
+      'Problem Solving',
+      'Data Analysis',
+      'Critical Thinking'
+    ]
+  },
+
+  'project-coordinator': {
+    icon: '📋',
+    title: 'Project Coordinator',
+    description:
+      'Help teams organize projects, schedules, tasks, and communication.',
+    responsibilities: [
+      'Track project tasks and deadlines',
+      'Schedule meetings and activities',
+      'Communicate with team members',
+      'Prepare project documents',
+      'Help keep projects organized'
+    ],
+    skills: [
+      'Organization',
+      'Communication',
+      'Time Management',
+      'Teamwork',
+      'Problem Solving'
+    ]
+  },
+
+  'operations-manager': {
+    icon: '⚙️',
+    title: 'Operations Manager',
+    description:
+      'Help organizations manage daily operations and improve how work gets done.',
+    responsibilities: [
+      'Manage daily business operations',
+      'Improve workplace processes',
+      'Coordinate employees and resources',
+      'Monitor performance and goals',
+      'Help solve operational problems'
+    ],
+    skills: [
+      'Leadership',
+      'Organization',
+      'Communication',
+      'Decision Making',
+      'Problem Solving'
     ]
   }
 }
